@@ -1,0 +1,77 @@
+body{
+  background-color: rgb(129,255,201);
+  font-family: sans-serif;
+}
+input{
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(255,195,0);
+  border-radius: 15px;
+}
+input[type=date]{
+  width: 200px;
+}
+input[type=time]{
+  width: 200px;
+}
+select{
+  background-color: white;
+  box-sizing: border-box;
+  border: 2px solid rgb(255,195,0);
+  border-radius: 15px;
+  height: 50px;
+  width: 200px;
+}
+#submitbtn{
+  background-color: white;
+  box-sizing: border-box;
+  border: 2px solid rgb(255,195,0);
+  border-radius: 15px;
+  height: 50px;
+  width: 100px;
+}
+#submitbtn:hover{
+  background-color: rgb(218,247,166);
+}
+#header{
+  background-color: rgb(177,270,277);
+  height: 120px;
+  width: 1910px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+#logo{
+  width: 400px;
+  height: 100px;
+}
+#backbtn{
+  text-decoration: none;
+}
+#backbtn p{
+  color: black;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+#backbtn div{
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  background-color: white;
+  border: 2px solid rgb(255,195,0);
+  border-radius: 15px;
+}
+#backbtn div:hover{
+  background-color: rgb(218,247,166);
+}
+#line{
+  height: 5px;
+  width: 1000px;
+  background-color: rgb(177,270,277);
+}
